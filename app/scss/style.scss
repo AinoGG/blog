@@ -244,7 +244,7 @@ body{
 
 .tabs__section{
     background-color: #fff;
-    padding-bottom: 300px;
+    padding-bottom: 180px;
     padding-top: 80px;    
 }
 
@@ -320,3 +320,59 @@ animation-duration: 1.5s;
 }
 
 
+// timer
+
+.timer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    
+    
+}
+
+.timer__block-container{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.timer__block{
+    text-align: center;    
+    padding: 2rem;
+    box-shadow: 0 4px 30px rgba(0,0,0,.25);
+    width: 146px;
+    height: 387px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform .3s;
+
+    span{
+        font-size: 48px;
+        font-weight: bold;
+
+        
+
+    }
+}
+
+.days{
+    background-image: url(../images/timer/days.jpg);    
+}
+
+.hours{
+    background-image: url(../images/timer/hours.jpg);
+}
+
+.minutes{
+    background-image: url(../images/timer/minutes.jpg);
+}
+
+.seconds{
+    background-image: url(../images/timer/seconds.jpg);
+}
