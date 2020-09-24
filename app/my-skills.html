@@ -15,8 +15,8 @@
         <div class="menu">
             <div class="container">
                 <ul>
-                    <li><a class="home__page" href="index.html">Home</a></li>
-                    <li><a href="my-skills.html">My skills</a></li>
+                    <li><a class="home__page" href="index.html">home</a></li>
+                    <li><a href="my-skills.html">my skills</a></li>
                     <li><a href="#">portfolio</a></li>
                     <li><a href="#">about me</a></li>
                     <li><a href="#">my Life</a></li>
@@ -35,7 +35,7 @@
 
     <div class="main">
         <div class="container">
-            <div class="main__content-title">
+            <div class="main__content-title text__before">
                 <h2>Практические навыки</h2>
             </div>
             <p class="main__content-text">
@@ -86,7 +86,11 @@
         </div>
 
         <div class="container">
-            <div class="timer">
+            <div class="timer__text">
+                <div class="timer__title h3 text__before">Обратный отсчет</div>
+                <span>Таймер отсчитывающий время до значимой для меня даты - до дня моей встречи с Анастасией, ныне моей женой. Помимо дня нашего знакомства, мы сделали его днем нашей свадьбы. Как вы уже догадались, здесь не просто техническая часть, но и еще часть моей жизни, в табах выше я использовал картинки из своих любимых аниме, счетчик считает до даты, посмотрим что будет дальше.</span>
+            </div>
+            <div class="timer">                
                 <div class="timer__block-container">
                     <div class="timer__block days">
                         <span id="days">10</span>
@@ -109,6 +113,45 @@
                     <div class="timer__block seconds">
                         <span id="seconds">10</span>
                         Секунд
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+                <div class="slider__title h3 text__before">
+                    Слайдер
+                </div>
+                <span>
+                    Слайдер это неотъемлимая часть любого сайта. Уютно уместить контент в карусель - выгодно использовать пространство и сфокусировать внимание клиента. В этом разделе, помимо JS слайдера, я оптимизировал картинки, которые изначально весили больше чем весит этот сайт. 
+                </span>
+                <div class="offer__slider">
+                    <div class="offer__slider-counter">
+                        <div class="offer__slider-prev">
+                            <img src="images/circle-left.svg" alt="prev">
+                        </div>
+                        <span id="current">03</span>
+                        /
+                        <span id="total">04</span>
+                        <div class="offer__slider-next">
+                            <img src="images/circle-right.svg" alt="next">
+                        </div>
+                    </div>
+                    <div class="offer__slider-wrapper">
+                        <div class="offer__slider-inner">
+                            <div class="offer__slide">
+                                <img src="images/slider/slider__item1.jpg" alt="pepper">
+                            </div>
+                            <div class="offer__slide">
+                                <img src="images/slider/slider__item2.jpg" alt="food">
+                            </div>
+                            <div class="offer__slide">
+                                <img src="images/slider/slider__item3.jpg" alt="oil">
+                            </div>
+                            <div class="offer__slide">
+                                <img src="images/slider/slider__item4.jpg" alt="paprika">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
