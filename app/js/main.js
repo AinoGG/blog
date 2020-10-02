@@ -6,9 +6,12 @@ import timer from  './modules/timer';
 import calc from  './modules/calc';
 import modal from  './modules/modal';
 import slider from  './modules/slider';
+import btnMenuSwitch from './modules/menubtn';
 
 window.addEventListener('DOMContentLoaded', () => {
 
+    
+    btnMenuSwitch('.menu__btn-list', '.menu__list');
     tabs('.tabs__header-item', '.tabs__content', '.tabs__container', 'tabheader__item_active');
     timer('.timer', '2021-07-22');
     calc();
@@ -23,6 +26,10 @@ window.addEventListener('DOMContentLoaded', () => {
         wrapper: '.offer__slider-wrapper', 
         field: '.offer__slider-inner',
     });
+
+    
+
+
                 
 });
 
