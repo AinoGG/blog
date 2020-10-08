@@ -1,0 +1,47 @@
+
+
+.portfolio__item-box{
+    margin-top: 40px;
+    width: 540px;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.portfolio__link{
+    position: relative;
+    display: block;
+    img{
+        width: 540px;
+        height: 275px;
+        transition: all 15s;
+        
+        &:hover{
+            transform: scale(1.7);
+        }
+    }
+
+    .portfolio-title{
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+             
+        z-index: 2;
+        color: #fff;
+        font-size: 36px;                    
+    }
+
+
+}
+
+
+.portfolio__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin-right: 0;
+}
