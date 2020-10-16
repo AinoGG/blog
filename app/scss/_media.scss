@@ -1,4 +1,7 @@
 @media (max-width: 1540px) {
+    .header .menu ul {
+        width: 100%;
+    }
     .menu__btn, .menu__btn-list{
         position: absolute;        
         width: 50px;
@@ -459,6 +462,13 @@
     .calculating__choose-item {
         margin-top: 5px;
     }
+
+    .main__content-text { 
+        font-size: 18px;       
+        &:hover{
+            transform: none;
+        }
+    }
 }
 
 
@@ -469,10 +479,11 @@
     }
 
     .main__content-text {
-        padding: 0.5rem;
-        font-size: 18px;
-        &:hover{
-            transform: none;
+        padding: 0.5rem;               
+        .today{
+            font-size: 8px;
+            top: 1px;
+            right: 1px;
         }
     }
 

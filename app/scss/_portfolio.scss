@@ -1,9 +1,15 @@
 
 
+
 .portfolio__item-box{
     margin-top: 40px;
     width: 540px;
-    overflow: hidden;
+    span{
+        display: inline-block;
+        margin-top: 15px;
+        width: 500px;
+        font-size: 18px;
+    }
     
     
 }
@@ -13,9 +19,12 @@
 .portfolio__link{
     position: relative;
     display: block;
+    overflow: hidden;
+    height: 275px;
+    width: inherit;
     img{
-        width: 540px;
-        height: 275px;
+        width: inherit;
+        height: inherit;
         transition: all 15s;
         
         &:hover{
@@ -45,3 +54,128 @@
     width: 1200px;
     margin-right: 0;
 }
+
+
+//media@@@@@
+
+
+@media (max-width: 1540px){
+
+    
+
+
+    .portfolio__inner {
+        width: 920px;
+    }
+
+    .portfolio__item-box{
+        width: 420px;
+        span{
+            width: inherit;
+        }
+
+    .portfolio__link{      
+        height: 230px;       
+            img{
+                width: inherit;
+                height: inherit;
+                        
+        }
+    }
+}
+}
+
+@media (max-width: 1140px){
+
+    .portfolio__inner{
+        justify-content: center;
+    }
+
+    .portfolio__item-box{
+        width: 540px;
+    }
+
+    .portfolio__item-box{
+            .portfolio__link{      
+                height: 275px; 
+            }
+        }
+    
+}
+
+@media (max-width: 900px){
+    .portfolio__inner{
+        width: 700px;
+    }
+}
+
+
+@media (max-width: 840px){
+    .portfolio__inner{
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 700px){
+    .portfolio__inner{
+        width: 500px;
+    }
+    .portfolio__item-box{
+        width: 420px;
+        .portfolio__link{      
+            height: 230px;
+        }
+    }
+}
+
+
+@media (max-width: 565px){
+    .portfolio__inner{
+        width: 400px;
+    }
+
+    .portfolio__item-box{
+        width: 380px;
+        .portfolio__link{      
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width: 435px){
+    .portfolio__inner{
+        width: 320px;
+    }
+
+    .portfolio__item-box{
+        width: 300px;
+        span{
+            font-size: 14px;
+        }
+        .portfolio__link{      
+            height: 150px;
+        }
+    }
+
+}
+
+@media (max-width: 320px){
+    .portfolio__inner{
+        width: 300px;
+    }
+
+    .portfolio__item-box{
+        width: 280px;  
+        span{
+            font-size: 12px;
+        }      
+        .portfolio__link{      
+            height: 120px;
+        }
+    }
+}
+    
+
+
+
